@@ -10,5 +10,8 @@ public class StoreController {
 	public String homePage() {
 		return "Hello Welcome to My Grocery Store";
 	}
-	
+	@GetMapping("/schedules")
+	public String schedulesList() {
+		return "This is a work schedule list";
+	}
 }
